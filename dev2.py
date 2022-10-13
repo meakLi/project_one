@@ -3,3 +3,9 @@ def add(a, b):
 
 
 print(add(1, 9))
+
+def num(a):
+    for i in a:
+        print(i,end='')
+
+num(12)
